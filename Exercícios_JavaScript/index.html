@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	</head>
+<body id="fundo">
+	<h2>Exercício 01</h2>
+	<br/>
+	<button onclick="mudarcor('red')">Vermelho</button>
+	<button onclick="mudarcor('green')">Verde</button>
+	<button onclick="mudarcor('blue')">Azul</button>
+	<button onclick="mudarcor('yellow')">Amarelo</button>
+<br/>
+<br/>
+<br/>
+<h2>Exercício 02</h2>
+	<br/>
+	<a href="#" onmouseover="mudarcor('red')">Vermelho</a>	
+	<a href="#" onmouseover="mudarcor('green')">Verde</a>
+	<a href="#" onmouseover="mudarcor('blue')">Azul</a>
+	<a href="#" onmouseover="mudarcor('yellow')">Amarelo</a>
+<h2>Exercício 03</h2>
+	<br/>	
+		<select onchange="mudarcorselect(this)">
+  			<option value="red">Vermelho</option>
+  			<option value="green">Verde</option>
+  			<option value="blue">Azul</option>
+  			<option value="yellow">Amarelo</option>
+  		</select>
+<h2>Exercício 04</h2>
+	<br/>	
+		<span style="align-items:center" id="paragrafo">JavaScript &eacute uma linguagem de programação baseada em scripts e padronizada pela ECMA International (associação especializada na padronização de sistemas de informação).
+Foi criada por Brendan Eich (Netscape) e surgiu em 1995 como linguagem de script client-side de páginas web.</span> 
+<br/>
+		<button onclick="mostrarocultar()">Mostrar/Ocultar</button>
+<h2>Exercício 05</h2>
+		<form action="">
+			Login: <input required type="text" name="" value="" size="20"><br>
+			Senha: <input pattern=".{6,10}" title="Tamanho da senha deve ser entre 6 e 10" required type="password" name="" value=""><br>
+			Confirme Senha: <input required pattern=".{6,10}" type="password" name="" value=""><br>
+		<input type="submit" value="Cadastre">
+		<input type="reset" value="Limpar">		
+		</form>
+<h2>Exercício 06</h2>
+		<form action="">
+			Palavra Palíndroma: <input id='palavra' required type="text" name="" value="" size="20"><br>
+			<input type="submit" value="Verificar" onclick="palindromo()">
+			<input type="reset" value="Limpar">		
+		</form>
+</body>
+</html>
